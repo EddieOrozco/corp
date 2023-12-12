@@ -1,5 +1,12 @@
+import reliabilityImg from 'public/reliability.jpg'
+import Hero from '@/components/hero';
+
 export default function Reliability() {
     return (
-     <div>Reliability Page</div>
+        <Hero 
+        imgData={reliabilityImg} 
+        imgAlt="Welding" 
+        title="Super high reliability hosting."
+      />
     )
   }

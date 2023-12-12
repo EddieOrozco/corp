@@ -6,7 +6,7 @@ export default function Home() {
     <Hero 
       imgData={homeImg} 
       imgAlt="car factory" 
-      title="Professional Cloud Hosting"
+      title="Professional Cloud Hosting."
     />
   )
 }
